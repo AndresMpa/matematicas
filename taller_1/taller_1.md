@@ -47,9 +47,18 @@ $$
 Ahora si vemos los vectores con la función XOR tenemos:
 
 $$
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 1 \space \rightarrow 1 \newline
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 1 \space \rightarrow 1
+$$
+
+$$
 1 \space XOR \space 1 \space \rightarrow 0
 $$
 
@@ -76,9 +85,18 @@ $$
 Ahora si vemos los vectores con la función XOR tenemos:
 
 $$
-1 \space XOR \space 1 \space \rightarrow 0 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
+1 \space XOR \space 1 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
 1 \space XOR \space 1 \space \rightarrow 0
 $$
 
@@ -107,9 +125,18 @@ $$
 De modo que la expresión de $\triangle(x, y)$ sería:
 
 $$
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 1 \space \rightarrow 1 \newline
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 1 \space \rightarrow 1
+$$
+
+$$
 1 \space XOR \space 1 \space \rightarrow 0
 $$
 
@@ -120,9 +147,18 @@ $$
 Mientras que la expresión de $\triangle(y, x)$ sería:
 
 $$
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-1 \space XOR \space 1 \space \rightarrow 1 \newline
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+1 \space XOR \space 1 \space \rightarrow 1
+$$
+
+$$
 1 \space XOR \space 0 \space \rightarrow 0
 $$
 
@@ -161,9 +197,18 @@ De modo que al efectuar la expresión $\triangle(x, y) \le \triangle(x, z) + \tr
 $\triangle(x, y)$
 
 $$
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 1 \space \rightarrow 1 \newline
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 1 \space \rightarrow 1
+$$
+
+$$
 1 \space XOR \space 1 \space \rightarrow 0
 $$
 
@@ -174,9 +219,18 @@ $$
 $\triangle(x, z)$
 
 $$
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 1 \space \rightarrow 1 \newline
-0 \space XOR \space 0 \space \rightarrow 0 \newline
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 1 \space \rightarrow 1
+$$
+
+$$
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
 1 \space XOR \space 0 \space \rightarrow 1
 $$
 
@@ -187,9 +241,18 @@ $$
 $\triangle(y, z)$
 
 $$
-0 \space XOR \space 0 \space \rightarrow 0 \newline
-0 \space XOR \space 1 \space \rightarrow 1 \newline
-1 \space XOR \space 0 \space \rightarrow 1 \newline
+0 \space XOR \space 0 \space \rightarrow 0
+$$
+
+$$
+0 \space XOR \space 1 \space \rightarrow 1
+$$
+
+$$
+1 \space XOR \space 0 \space \rightarrow 1
+$$
+
+$$
 1 \space XOR \space 0 \space \rightarrow 1
 $$
 
@@ -200,8 +263,14 @@ $$
 Por lo que reemplanzando en $\triangle(x, y) \le \triangle(x, z) + \triangle(z, y)$ tenemos:
 
 $$
-\triangle(x, y) = 2 \newline
-\triangle(x, z) = 5 \newline
+\triangle(x, y) = 2
+$$
+
+$$
+\triangle(x, z) = 5
+$$
+
+$$
 \triangle(z, y) = 7
 $$
 
@@ -821,7 +890,7 @@ $$
 Un conjunto de vectores se considera linealmente independiente si ninguno de los vectores puede ser expresado como una combinación lineal de los demás vectores del conjunto. Es decir, un conjunto de vectores ${v_1, v_2, ..., v_n}$ es linealmente independiente si ninguno de ellos puede ser expresado como una combinación lineal de los demás vectores del conjunto. Para comprobar si un conjunto de vectores es linealmente independiente, se debe resolver la ecuación:
 
 $$
-a_1 v_1 + a_2 v_2 + ... + a_n * v_n = 0
+a_1 v_1 + a_2 v_2 + ... + a_n v_n = 0
 $$
 
 Por tanto podemos pasar a expresar los vectores anteriores como:
