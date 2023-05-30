@@ -71,7 +71,7 @@ Por tanto cumple la segunda propiedad
 Para determinar la tercera propiedad hemos de usar un escalar $\beta$ que debe de poder cumplir que:
 
 $$
-\exist \beta \in [a, b] \& f \in W : \beta f(a) = \beta f(b) \rightarrow \beta f(x) \in W
+\exist \beta \in [a, b]; f \in W : \beta f(a) = \beta f(b) \rightarrow \beta f(x) \in W
 $$
 
 Para plantear si esta propiedad se cumple indicamos:
